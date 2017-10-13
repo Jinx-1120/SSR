@@ -91,7 +91,7 @@ module.exports = {
   head: {
     title: 'demo',
     meta: [{ charset: 'utf-8' }, { hid: 'description', name: 'description', content: 'Nuxt.js project' }],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: '/common/common.css' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: '/common/common.css' }, { rel: 'stylesheet', href: 'https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js' }]
   },
   /*
   ** Customize the progress bar color
@@ -171,22 +171,36 @@ router.get('/teacherList', function (req, res, next) {
       'head': '/images/head.jpg',
       'grade': 1, // 1 是小学  2是初中   3是高中  4 是大学    5是研究生导师
       'subject': '数学',
-      'Seniority': 12,
-      'honor': [{ 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }, { 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '市学科带头人，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
+      'Seniority': 9,
+      'honor': [{ 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }, { 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '市学科带头人，相信各位在工作或者业余自己玩技术的时候，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
     }, {
       'teacherName': '麻辣香锅',
       'head': '/images/head.jpg',
       'grade': 4, // 1 是小学  2是初中   3是高中  4 是大学    5是研究生导师
       'subject': '物理',
-      'Seniority': 12,
-      'honor': [{ 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '市学科带头人，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }, { 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }]
+      'Seniority': 5,
+      'honor': [{ 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '市学科带头人，相信各位在工作或者业余自己玩技术的时候，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }, { 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }]
     }, {
       'teacherName': '尼古拉斯',
       'head': '/images/head.jpg',
       'grade': 2, // 1 是小学  2是初中   3是高中  4 是大学    5是研究生导师
       'subject': '英语',
-      'Seniority': 12,
-      'honor': [{ 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }, { 'tip': '市学科带头人，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
+      'Seniority': 7,
+      'honor': [{ 'tip': '省市教育能手，相信各位在工作或者业余自己玩技术的时候，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '优秀青年教师，山东省‘优秀辅导教师’，省市教育能手，市学科带头人，市骨干教师。' }, { 'tip': '市学科带头人，市骨干教师,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
+    }, {
+      'teacherName': '撒大手动',
+      'head': '/images/head.jpg',
+      'grade': 4, // 1 是小学  2是初中   3是高中  4 是大学    5是研究生导师
+      'subject': '生物',
+      'Seniority': 4,
+      'honor': [{ 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。' }, { 'tip': '相信各位在工作或者业余自己玩技术的时候，或多或少会去网上找轮子来实现某个需求，那么，一些拥有高度开源精神的技术爱好者和团队就渐渐出现在了技术圈。' }, { 'tip': '市学科带头人，市骨干教师相信各位在工作或者业余自己玩技术的时候,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
+    }, {
+      'teacherName': '明年冲动',
+      'head': '/images/head.jpg',
+      'grade': 1, // 1 是小学  2是初中   3是高中  4 是大学    5是研究生导师
+      'subject': '生物',
+      'Seniority': 2,
+      'honor': [{ 'tip': '省市教育能手，市学科带头人，优秀青年教师，山东省‘优秀辅导教师’，市骨干教师。会去网上找轮子来实现某个。' }, { 'tip': '相信各位在工作或者业余自己玩技术的时候，或多或少会去网上找轮子来实现某个需求，那么，一些拥有高度开源精神的技术爱好者和团队就渐渐出现在了技术圈。' }, { 'tip': '市学科带头人，市骨干教师相信各位在工作或者业余自己玩技术的时候,优秀青年教师，山东省‘优秀辅导教师’，省市教育能手。' }]
     }]
   };
   res.json(obj);
@@ -248,8 +262,8 @@ module.exports = require("regenerator-runtime");
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_SSR_demo_node_modules_babel_runtime_regenerator__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_SSR_demo_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_SSR_demo_node_modules_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_nuxt_demo_node_modules_babel_runtime_regenerator__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_nuxt_demo_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_nuxt_demo_node_modules_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_nuxt__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_nuxt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_nuxt__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_express__ = __webpack_require__(0);
@@ -259,9 +273,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 // Start nuxt.js
 var start = function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_SSR_demo_node_modules_babel_runtime_regenerator___default.a.mark(function _callee() {
+  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_nuxt_demo_node_modules_babel_runtime_regenerator___default.a.mark(function _callee() {
     var config, nuxt;
-    return __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_SSR_demo_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_jinhaidi_Documents_nuxt_demo_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:

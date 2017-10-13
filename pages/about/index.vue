@@ -92,6 +92,7 @@
   import footerButtom from '~/components/footer.vue'
   import axios from '~plugins/axios'
   import { message } from '~plugins/filters'
+  import $ from 'jquery'
   export default {
     transition: {
       name: 'about',

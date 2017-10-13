@@ -88,8 +88,8 @@
 
             <p class="title">数万名教学老师的教学新选择</p>
             <div class="ul-wrap">
-              <span id="btn-left"> < </span>
-              <span id="btn-right"> > </span>
+              <span id="btn-left" @click="onSwiper('left')"> < </span>
+              <span id="btn-right" @click="onSwiper('right')"> > </span>
               <div class="ul-hidden">
                 <ul class="teacher-list clearfix" v-model="teacherList">
                   <li class="teacher-item left" v-for="item in teacherList">
@@ -156,6 +156,7 @@ import footerButtom from '~/components/footer.vue'
 import axios from '~plugins/axios'
 import { grade } from '~plugins/filters'
 import {syncClass} from '../ajax/getData'
+import $ from 'jquery'
 export default {
   transition: {
     name: 'index',
@@ -167,7 +168,8 @@ export default {
   async asyncData () {
     let { data } = await axios.get('/api/teacherList')
     return {
-      teacherList: data.teacherList
+        teacherList: data.teacherList,
+        length:data.teacherList.length
     }
   },
   components: {
@@ -176,12 +178,29 @@ export default {
   },
   data(){
     return{
-      classGrade:'',
-      teacherList:[]
+        classGrade:'',
+        teacherList:[],
+		length:0,
+        num:0
     }
   },
   methods:{
+    onSwiper(value){
+    	if(value == 'right'){
+			if(this.length - this.num > 3){
+                this.num ++;
+                let leftNum = - this.num * 340 + 'px';
+				$('.teacher-list').animate({'marginLeft':leftNum})
+			}
+        }else{
+			if(this.num > 0){
+                this.num --;
+                let leftNum = - this.num * 340 + 'px';
+				$('.teacher-list').animate({'marginLeft':leftNum})
+			}
+        }
 
+    }
   }
 }
 </script>
