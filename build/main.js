@@ -91,7 +91,7 @@ module.exports = {
   head: {
     title: 'demo',
     meta: [{ charset: 'utf-8' }, { hid: 'description', name: 'description', content: 'Nuxt.js project' }],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: '/common/common.css' }, { rel: 'stylesheet', href: 'https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: '/common/common.css' }, { href: 'https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js' }]
   },
   /*
   ** Customize the progress bar color

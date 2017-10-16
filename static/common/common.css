@@ -36,7 +36,7 @@ html{
   height: 42px;
   margin:0 auto;
   border: 2px solid #1cc03b;
-  border-radius: 0 40px 40px 0;
+  border-radius: 40px;
   position: relative;
 }
 #search-btn{
@@ -50,11 +50,12 @@ html{
   cursor:pointer;
 }
 #search-value{
-  width: 396px;
+  width: 382px;
   height: 38px;
   border: none;
   border-right: 60px solid #1cc03b;
   border-radius: 0 30px 30px 0;
+  margin-left: 16px;
 }
 .login{
   line-height: 50px;
@@ -74,6 +75,10 @@ html{
 .login a{
   color:#ccc;
 }
+.login a:hover{
+  text-decoration:underline;
+  color:#3f88bf;
+}
 .header-menu{
   width: 100%;
   border-bottom: 1px solid #a0e19f;
@@ -90,6 +95,10 @@ html{
   color:#ffffff;
 }
 .menu-list .menu-item span{
+  -webkit-transition: 1.5s;
+  -webkit-transition: -webkit-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out;
+  -moz-transition: -moz-transform 1.5s ease-out;
   display: inline-block;
   width: 34px;
   height: 34px;
@@ -99,6 +108,11 @@ html{
   float: left;
   text-align: center;
   margin: 4px 9px 0 0;
+}
+.menu-list .menu-item span:hover{
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
 }
 .menu-list .menu-item a{
   float: left;

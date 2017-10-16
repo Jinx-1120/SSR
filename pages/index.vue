@@ -16,20 +16,21 @@
             <dl class="dl-list left">
               <dt>
                 首次测评
+                <img src="/images/pen.png" alt="">
               </dt>
               <dd>首次测评，系统评估当前能力水平</dd>
               <dt>
-                首次测评
+                分析评估
               </dt>
-              <dd>首次测评，系统评估当前能力水平</dd>
+              <dd>首次测评  分析评估  提分方案  测评完成</dd>
               <dt>
-                首次测评
+                提分方案
               </dt>
-              <dd>首次测评，系统评估当前能力水平</dd>
+              <dd>完成推荐试题试卷，在顺其自然中提升学习水平</dd>
               <dt>
-                首次测评
+                测评完成
               </dt>
-              <dd>首次测评，系统评估当前能力水平</dd>
+              <dd>评测完成，得到最终分析</dd>
             </dl>
             <div class="goevaluating content-btn">进入测评</div>
           </div>
@@ -39,21 +40,25 @@
           <div class="content-body">
             <p class="title">自适应测评，孩子提分新方式</p>
             <ul class="customized-list">
-              <li class="customized-item left">
+              <li class="customized-item left" style="background:#1cc03b;">
+                <img src="/images/content-icon.png" alt="">
                 <span class="customized-item-title">Step 1</span><br>
                 <span style="line-height: 20px;font-size: 17px">完成系统测试</span>
               </li>
-              <li class="customized-item left">
-                <span class="customized-item-title">Step 1</span><br>
-                <span style="line-height: 20px;font-size: 17px">完成系统测试</span>
+              <li class="customized-item left" style="background:#e67c10;">
+                <img src="/images/content-icon2.png" alt="">
+                <span class="customized-item-title">Step 2</span><br>
+                <span style="line-height: 20px;font-size: 17px">平台建立学生<br>成长档案</span>
               </li>
-              <li class="customized-item left">
-                <span class="customized-item-title">Step 1</span><br>
-                <span style="line-height: 20px;font-size: 17px">完成系统测试</span>
+              <li class="customized-item left" style="background:#46b7ec;">
+                <img src="/images/content-icon3.png" alt="">
+                <span class="customized-item-title">Step 3</span><br>
+                <span style="line-height: 20px;font-size: 17px">完成平台推荐能力<br>相关试题</span>
               </li>
-              <li class="customized-item left" style="margin-right: 0">
-                <span class="customized-item-title">Step 1</span><br>
-                <span style="line-height: 20px;font-size: 17px">完成系统测试</span>
+              <li class="customized-item left" style="margin-right: 0;background:#8d88f1;">
+                <img src="/images/content-icon4.png" alt="">
+                <span class="customized-item-title">Step 4</span><br>
+                <span style="line-height: 20px;font-size: 17px">潜移默化中提升<br>学生学习能力</span>
               </li>
             </ul>
           </div>
@@ -72,18 +77,36 @@
         </div>
         <!-- 线上审批节约时间 -->
         <div class="content-marking-wrap">
-          <div class="content-marking content-body">
-            <div class="marking-title clearfix">
-              <p class="bigtitle left">线上审批节约时间</p>
-              <p class="smalltitle left">
-                线上发布家庭作业，学生提交作业后，由平台判断主观题对错。<br>
-                有效<span style="font-size: 24px;color: #19ffd6;font-weight: 600">节省</span>了教师<span style="font-size: 20px;color: #19ffd6;font-weight: 600">80%</span>的课余时间，释放了老师的课余压力。
-              </p>
+          <div class="content-marking-body">
+            <div class="content-marking content-body">
+              
             </div>
           </div>
+          <div class="mark-warp">
+            <div class="marking-title clearfix">
+                <p class="bigtitle left">线上审批节约时间</p>
+                <p class="smalltitle left">
+                  线上发布家庭作业，学生提交作业后，由平台判断主观题对错。<br>
+                  有效<span style="font-size: 24px;color: #19ffd6;font-weight: 600">节省</span>了教师<span style="font-size: 20px;color: #19ffd6;font-weight: 600">80%</span>的课余时间，释放了老师的课余压力。
+                </p>
+                <div class="img-wrap clearfix">
+                  <span class="img-tip img-tip-left">
+                    <b>传统批阅<br><span>120</span>分钟</b> 
+                  </span>
+                  <img src="/images/shijian.png" alt="" width="1190">
+                  <span class="img-tip img-tip-right">
+                    <b>平台批阅<span>30</span>分钟</b>
+                  </span>
+                </div>
+            </div>
+          </div>
+          
         </div>
         <!-- 教学新选择 -->
         <div class="content-choice-wrap">
+          <div class="content-choice-opcity ">
+
+          </div>
           <div class="content-choice content-body">
 
             <p class="title">数万名教学老师的教学新选择</p>
@@ -116,6 +139,7 @@
         </div>
         <!-- 中小学生自适应平台 -->
         <div class="content-platform-wrap">
+          <div class="content-platform-opcity"></div>
           <div class="content-choice content-body">
 
             <p class="title">中小学生自适应平台</p>
@@ -125,19 +149,19 @@
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
-                <img src="/images/icon.png" alt="" width="62" height="50">
+                <img src="/images/choice-icon2.jpg" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
-                <img src="/images/icon.png" alt="" width="62" height="50">
+                <img src="/images/choice-icon1.jpg" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
-                <img src="/images/icon.png" alt="" width="62" height="50">
+                <img src="/images/choice-icon4.png" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item" style="margin-right: 0">
-                <img src="/images/icon.png" alt="" width="62" height="50">
+                <img src="/images/choice-icon5.png" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
             </ul>
@@ -225,6 +249,7 @@ export default {
     line-height: 200px;
     height: 205px;
     text-align: center;
+    position: relative;
   }
   .content-evaluating-left img{
     float: left;
@@ -236,6 +261,12 @@ export default {
     font-size: 23px;
     font-weight: 600;
     color: #1dbf38;
+    position: relative;
+    cursor:pointer;
+  }
+  .content-evaluating-left .dl-list dt img{
+    position: absolute;
+    left: 0;
   }
   .content-evaluating-left .dl-list dd{
     font-size: 14px;
@@ -260,13 +291,26 @@ export default {
     height: 460px;
   }
   .customized-item{
+    -webkit-transition: 1s;
+    -webkit-transition: -webkit-transform 0.8s ease-out;
+    transition: transform 0.8s ease-out;
+    -moz-transition: -moz-transform 0.8s ease-out;
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background:#1cc03b;
     text-align: center;
     color: #ffffff;
     margin-right: 116px;
+    position: relative;
+  }
+  .customized-item:hover{
+     transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+  }
+  .customized-item img{
+    position: absolute;
+    top:24px;
   }
   .customized-item span{
     display: inline-block;
@@ -282,6 +326,7 @@ export default {
     margin:0 auto;
     width: 1190px;
     padding-bottom: 150px;
+    position: relative;
   }
   .content-questions .content-img{
     position: relative;
@@ -293,26 +338,73 @@ export default {
     background: #1dbf38;
   }
   .content-marking-wrap{
-    background: url(/images/marking.jpg);
-    background-size: 100% 500px;
     height: 500px;
     width: 100%;
     color:#ffffff;
+    z-index: 100;
+    background:#42c3d4;
+    position: relative;
+  }
+  .content-marking-body{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background: url(/images/marking.png);
+    background-size: 100% 500px;
+  }
+  .mark-warp{
+    width: 1190px;
+    margin: 0 auto;
   }
   .marking-title{
-    padding: 86px 0 55px 167px;
+    position: absolute;
+    top:10px;
+    padding: 86px 0 55px 0;
   }
   .marking-title .bigtitle{
     font-size: 47px;
+    margin-left: 165px;
+    font-weight: 900;
+  }
+  .marking-title img{
+    margin-top: 45px;
+  }
+  .img-wrap{
+    position: relative;
+  }
+  .img-tip {
+    font-style:oblique;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top:110px;
+    width: 120px;
+  }
+  .img-tip-left{
+    left:30px;
+  }
+  .img-tip-right{
+    right:30px;
+  }
+  .img-tip span{
+    font-size: 40px;
     font-weight: 900;
   }
   .marking-title .smalltitle{
     font-size: 17px;
     margin: 9px 0 0 60px;
   }
+  .content-choice-opcity{
+    width: 100%;
+    height: 895px;
+    background:#ffffff;
+    opacity: .7;
+    position: absolute;
+  }
   .content-choice-wrap{
-    background: url(/images/introduce.jpg);
+    background: url(/images/introduce.png);
     background-size: 100% 100%;
+    position: relative;
   }
   .ul-wrap {
     position: relative;
@@ -401,10 +493,18 @@ export default {
     margin: 0 auto;
   }
   .content-platform-wrap{
-    background: url(/images/marking.jpg) 100% 100%;
-    height: 700px;
+    background: url(/images/platform.png) 100% 100%;
+    height: 676px;
     width: 100%;
     color:#ffffff;
+    position: relative;
+  }
+  .content-platform-opcity{
+    width: 100%;
+    height: 895px;
+    background:#ffffff;
+    opacity: .7;
+    position: absolute;
   }
   .platform-item{
     float: left;
@@ -427,5 +527,12 @@ export default {
   .goplat{
     background:#1dbf38;
     margin: 0 auto;
+  }
+  @keyframes myfirst
+  {
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  100% {background: green;}
   }
 </style>

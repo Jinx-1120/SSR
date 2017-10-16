@@ -64,6 +64,7 @@
   .footer-logo-content{
     width: 1190px;
     margin: 0 auto;
+    position: relative;
   }
   .footer-logo img{
     margin-top: 27px;
@@ -71,6 +72,7 @@
   .footer-aboutus-wrap{
     width: 1190px;
     margin: 0 auto;
+    position: relative;
     padding-bottom: 80px
   }
   .footer-aboutus{
