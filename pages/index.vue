@@ -432,8 +432,16 @@ export default {
   }
   .ul-wrap  #btn-left,#btn-right{
     position: absolute;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background:#a8a9a9;
+    text-align: center;
+    line-height: 74px;
     top: 50%;
-    font-size: 65px;
+    font-size: 67px;
+    color:#ffffff;
     cursor:pointer;
   }
   #btn-left{

@@ -16,8 +16,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/common/common.css' },
-      { href: 'https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js'}
+      { rel: 'stylesheet', href: '/common/common.css' }
     ]
   },
   /*
