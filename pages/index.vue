@@ -16,7 +16,6 @@
             <dl class="dl-list left">
               <dt>
                 首次测评
-                <img src="/images/pen.png" alt="">
               </dt>
               <dd>首次测评，系统评估当前能力水平</dd>
               <dt>
@@ -263,10 +262,19 @@ export default {
     color: #1dbf38;
     position: relative;
     cursor:pointer;
+    width:135px;
+    height: 40px;
   }
-  .content-evaluating-left .dl-list dt img{
-    position: absolute;
-    left: 0;
+  .content-evaluating-left .dl-list dt:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -moz-transform-origin: left;
+    background-image: url(/images/pen.png);
   }
   .content-evaluating-left .dl-list dd{
     font-size: 14px;
@@ -285,9 +293,12 @@ export default {
     text-align: center;
   }
   .content-customized{
-    background: url(/images/customized.jpg);
-    background-size: 100% 460px;
-    width: 100%;
+    background: url(/images/beijing.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     height: 460px;
   }
   .customized-item{

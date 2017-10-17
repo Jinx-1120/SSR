@@ -22,27 +22,27 @@
     <div class="header-menu">
       <ul class="menu-list clearfix">
         <li class="menu-item" style="margin-left: 178px">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon1.png" alt=""></span>
           <nuxt-link to="/" exact>首页</nuxt-link>
         </li>
         <li class="menu-item">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon2.png" alt=""></span>
           <nuxt-link to="/about">自适应测评</nuxt-link>
         </li>
         <li class="menu-item">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon3.png" alt=""></span>
           <nuxt-link to="/about">我的测评</nuxt-link>>
         </li>
         <li class="menu-item">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon4.png" alt=""></span>
           <nuxt-link to="/about">疑难解答</nuxt-link>>
         </li>
         <li class="menu-item">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon5.png" alt=""></span>
           <nuxt-link to="/about">我的专题库</nuxt-link>>
         </li>
         <li class="menu-item">
-          <span><img src="/images/menu-icon.png" alt=""></span>
+          <span><img src="/images/menu-icon6.png" alt=""></span>
           <nuxt-link to="/about">学科助手</nuxt-link>>
         </li>
       </ul>
