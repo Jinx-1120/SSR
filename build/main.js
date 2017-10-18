@@ -333,7 +333,8 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 
 var app = __WEBPACK_IMPORTED_MODULE_2_express___default()();
-var host = process.env.HOST || '127.0.0.1';
+console.log(process);
+var host = process.env.HOST;
 var port = process.env.PORT || 3000;
 
 app.set('port', port);

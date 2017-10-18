@@ -56,7 +56,7 @@
     components: {}
   }
 </script>
-<style>
+<style scoped>
   .footer-logo{
     height: 90px;
     border-bottom: 1px solid #ccc;

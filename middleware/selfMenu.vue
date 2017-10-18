@@ -61,7 +61,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   .main-left{
     width: 220px;
     background: #edf9e3;

@@ -4,7 +4,8 @@ import express from 'express'
 import api from './api'
 
 const app = express()
-const host = process.env.HOST || '127.0.0.1'
+console.log(process)
+const host = process.env.HOST 
 const port = process.env.PORT || 3000
 
 app.set('port', port)

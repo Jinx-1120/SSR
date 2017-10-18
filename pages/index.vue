@@ -40,7 +40,7 @@
             <p class="title">自适应测评，孩子提分新方式</p>
             <ul class="customized-list">
               <li class="customized-item left" style="background:#1cc03b;">
-                <img src="/images/content-icon.png" alt="">
+                <img src="/images/content-icon1.png" alt="">
                 <span class="customized-item-title">Step 1</span><br>
                 <span style="line-height: 20px;font-size: 17px">完成系统测试</span>
               </li>
@@ -144,15 +144,15 @@
             <p class="title">中小学生自适应平台</p>
             <ul class="platform-list clearfix">
               <li class="platform-item">
-                <img src="/images/icon.png" alt="" width="62" height="50">
+                <img src="/images/choice-icon1.png" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
-                <img src="/images/choice-icon2.jpg" alt="" width="62" height="50">
+                <img src="/images/choice-icon2.png" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
-                <img src="/images/choice-icon1.jpg" alt="" width="62" height="50">
+                <img src="/images/choice-icon3.png" alt="" width="62" height="50">
                 <p>现在加入，立即开启<br>全新的学习模式</p>
               </li>
               <li class="platform-item">
@@ -228,7 +228,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .header-banner{
     height: 390px;
   }

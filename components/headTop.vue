@@ -21,7 +21,7 @@
     <!-- 头部菜单栏 -->
     <div class="header-menu">
       <ul class="menu-list clearfix">
-        <li class="menu-item" style="margin-left: 178px">
+        <li class="menu-item" style="margin-left: 85px">
           <span><img src="/images/menu-icon1.png" alt=""></span>
           <nuxt-link to="/" exact>首页</nuxt-link>
         </li>
@@ -44,6 +44,10 @@
         <li class="menu-item">
           <span><img src="/images/menu-icon6.png" alt=""></span>
           <nuxt-link to="/about">学科助手</nuxt-link>>
+        </li>
+        <li class="menu-item">
+          <span><img src="/images/menu-icon7.png" alt=""></span>
+          <nuxt-link to="/about">成长档案</nuxt-link>>
         </li>
       </ul>
     </div>

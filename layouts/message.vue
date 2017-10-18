@@ -44,7 +44,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 .login .icon{
     display: inline-block;
     width: 17px;
@@ -68,62 +68,5 @@ export default {
     font-size: 13px;
     margin-bottom: 5px;
   }
-  .main-right{
-    width: 940px;
-    margin-bottom: 54px;
-  }
-  .top-menu-list{
-    padding-top: 10px;
-    background: #ffffff;
-    border-bottom: 2px solid #eeeeee;
-    border-radius: 2px 2px 0 0;
-  }
-  .top-menu-list .top-menu-item{
-    padding: 5px 10px;
-    float: left;
-    color: #525252;
-    border-radius: 2px 2px 0 0;
-    cursor:pointer;
-  }
-  .top-menu-list .top-menu-item-active{
-    background: #1cc03b;
-    color: #ffffff;
-  }
-  .message-list{
-    padding-left: 30px;
-    background: #ffffff;
-  }
-  .message-item{
-    height: 148px;
-    width: 890px;
-    cursor: pointer;
-    border-bottom: 1px solid #ececec;
-  }
-  .message-item .ietm-head img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 41px 25px 0 0;
-  }
-  .item-introduce{
-    margin-top: 36px;
-    line-height: 23px;
-    font-size: 14px;
-    color: #525252;
-  }
-  .item-introduce .type{
-    line-height: 29px;
-    color: #c0c0c0;
-  }
-  .item-introduce .type .type-name{
-    margin-right: 16px;
-  }
-  .load-more{
-    line-height: 86px;
-    color: #66bb77;
-    font-size: 16px;
-    text-align: center;
-    background: #ffffff;
-    cursor:pointer;
-  }
+  
 </style>
