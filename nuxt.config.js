@@ -2,9 +2,6 @@ module.exports = {
   /*
   ** Router config
   */
-  router: {
-    // mode: 'hash'
-  },
   /*
   ** Headers of the page
   */
@@ -16,7 +13,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/common/common.css' }
+      { rel: 'stylesheet', href: 'https://unpkg.com/element-ui/lib/theme-default/index.css'}
     ]
   },
   /*
@@ -27,23 +24,24 @@ module.exports = {
   ** Build configuration
   */
   vender: [
-    'axios'
+    'axios',
+    'element-ui'
   ],
-  // babel: {
-  //   'plugins': [['component', [
+  // babel:{
+  //   "plugins": [["component", [
   //     {
-  //       'libraryName': 'element-ui',
-  //       'styleLibraryName': 'theme-default'
+  //       "libraryName": "element-ui",
+  //       "styleLibraryName": "theme-default"
   //     },
-  //     'transform-async-to-generator'
+  //     'transform-async-to-generator',
+  //     'transform-runtime'
   //   ]]],
   //   comments: true
   // },
-  // plugins: [
-  //   { src: '~plugins/element-ui', ssr: true }
-  // ]
-  // css: [
-  //   'element-ui/lib/theme-default/index.css'
-  // ]
-
+  plugins: [
+    { src: '~plugins/element-ui', ssr: true }
+  ],
+  css:[
+    'assets/main.css'
+  ]
 }
